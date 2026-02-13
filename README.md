@@ -49,7 +49,7 @@ A URL base da API é configurada diretamente no `index.html`:
 ```html
 <script>
   // Backend publicado no Render
-  window.API_BASE_URL = 'TROCAR';
+  window.API_BASE_URL = 'https://dashboards-backend-m8mv.onrender.com';
 </script>
 ```
 
@@ -109,4 +109,5 @@ Este repositório está preparado para ser publicado no GitHub Pages.
 
 Quando um usuário acessa essa URL, o front consome a API apontada em
 `window.API_BASE_URL` (por padrão, o back-end no Render).
+
 

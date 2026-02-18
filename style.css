@@ -830,8 +830,8 @@ body {
 /* Cabeçalho de ações (engrenagem) no card */
 .card-header-actions {
   position: relative;
-  margin-top: auto;          /* empurra para a parte de baixo do card */
-  align-self: flex-end;      /* alinha na direita dentro do card */
+  margin-left: auto;
+  margin-top: auto;
   z-index: 3;
   display: flex;
   align-items: center;
@@ -952,6 +952,12 @@ body {
   letter-spacing: -0.04em;
   transition: all 0.3s ease-out;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+  text-align: center;
+  margin: auto 0;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card:hover .titulo {
